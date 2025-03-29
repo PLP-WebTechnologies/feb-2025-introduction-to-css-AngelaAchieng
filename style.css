@@ -1,0 +1,39 @@
+html{
+    background-color:plum;
+}
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+img {
+    max-width: 35%;
+}
+.list, .table {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+}
+#registration{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    font-size:large;
+    color:darkslategrey;
+}
+label {
+    margin-top: 10px;
+}
+input, select {
+    padding: 5px;
+    margin-top: 5px;
+}
+#registration{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
